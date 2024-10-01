@@ -12,6 +12,6 @@ public class ProcessController {
 	@GetMapping("/test")
 	public String reqRes() {
 		log.info("요청 수락 ~~~");
-		return "수정되나요??";
+		return "배고파";
 	}
 }
